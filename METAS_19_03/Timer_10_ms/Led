@@ -1,0 +1,13 @@
+;	CLR -> coloca o bit em nível lógico baixo
+;	SETB -> coloca o bit em nível lógico alto
+
+	ORG 0000h ;INÍCIO DO CÓDIGO
+	
+	MOV P1, #0FFh
+	CLR P1.0
+	CLR P1.1
+	CLR P1.2
+	SJMP $
+
+	END	
+	
